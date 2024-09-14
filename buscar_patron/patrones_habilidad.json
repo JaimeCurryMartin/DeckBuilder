@@ -35,5 +35,17 @@
     "Proliferate",
     "Infect",
     "Annihilator",
-    "Evolve"   
+    "Evolve",
+    "Counter",
+    "Graveyard",
+    "Token",
+    "Exile",
+    "Draw",
+    "Discard",
+    "Return",
+    "Prevent",
+    "Regenerate",
+    "Transform",
+    "Toxic",
+    "Life"
 ]
