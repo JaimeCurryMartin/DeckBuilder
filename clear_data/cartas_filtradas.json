@@ -1,0 +1,235 @@
+[
+    {
+        "name": "Battle-Rage Blessing",
+        "manaCost": "{1}{B}",
+        "colors": [
+            "B"
+        ],
+        "type": "Instant",
+        "text": "Target creature gains deathtouch and indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)"
+    },
+    {
+        "name": "Biblioplex Assistant",
+        "manaCost": "{4}",
+        "colors": [],
+        "type": "Artifact Creature — Gargoyle",
+        "text": "Flying\nWhen Biblioplex Assistant enters the battlefield, put up to one target instant or sorcery card from your graveyard on top of your library."
+    },
+    {
+        "name": "Brudiclad, Telchor Engineer",
+        "manaCost": "{4}{U}{R}",
+        "colors": [
+            "R",
+            "U"
+        ],
+        "type": "Legendary Artifact Creature — Phyrexian Artificer",
+        "text": "Creature tokens you control have haste.\nAt the beginning of combat on your turn, create a 2/1 blue Phyrexian Myr artifact creature token. Then you may choose a token you control. If you do, each other token you control becomes a copy of that token."
+    },
+    {
+        "name": "Cement Shoes",
+        "manaCost": "{1}",
+        "colors": [],
+        "type": "Artifact — Equipment",
+        "text": "Equipped creature gets +3/+3 and has \"At the beginning of your end step, tap this creature.\"\nEquipped creature doesn't untap during its controller's untap step.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"
+    },
+    {
+        "name": "Dune Mover",
+        "manaCost": "{2}",
+        "colors": [],
+        "type": "Artifact Creature — Phyrexian Golem",
+        "text": "Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen Dune Mover enters the battlefield, you may search your library for a basic land card, reveal it, then shuffle and put that card on top."
+    },
+    {
+        "name": "Etched Familiar",
+        "manaCost": "{2}{B}",
+        "colors": [
+            "B"
+        ],
+        "type": "Artifact Creature — Phyrexian Fox",
+        "text": "When Etched Familiar dies, each opponent loses 2 life and you gain 2 life."
+    },
+    {
+        "name": "Evolving Wilds",
+        "manaCost": "",
+        "colors": [],
+        "type": "Land",
+        "text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."
+    },
+    {
+        "name": "Filigree Attendant",
+        "manaCost": "{2}{U}{U}",
+        "colors": [
+            "U"
+        ],
+        "type": "Artifact Creature — Homunculus",
+        "text": "Flying\nFiligree Attendant's power is equal to the number of artifacts you control."
+    },
+    {
+        "name": "Filigree Familiar",
+        "manaCost": "{3}",
+        "colors": [],
+        "type": "Artifact Creature — Fox",
+        "text": "When Filigree Familiar enters the battlefield, you gain 2 life.\nWhen Filigree Familiar dies, draw a card."
+    },
+    {
+        "name": "Gideon Jura",
+        "manaCost": "{3}{W}{W}",
+        "colors": [
+            "W"
+        ],
+        "type": "Legendary Planeswalker — Gideon",
+        "text": "[+2]: During target opponent's next turn, creatures that player controls attack Gideon Jura if able.\n[−2]: Destroy target tapped creature.\n[0]: Until end of turn, Gideon Jura becomes a 6/6 Human Soldier creature that's still a planeswalker. Prevent all damage that would be dealt to him this turn."
+    },
+    {
+        "name": "Goring Warplow",
+        "manaCost": "{6}",
+        "colors": [],
+        "type": "Artifact Creature — Construct",
+        "text": "Prototype {1}{B} — 1/1 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nDeathtouch"
+    },
+    {
+        "name": "Island",
+        "manaCost": "",
+        "colors": [],
+        "type": "Basic Land — Island",
+        "text": "({T}: Add {U}.)"
+    },
+    {
+        "name": "Journey to Nowhere",
+        "manaCost": "{1}{W}",
+        "colors": [
+            "W"
+        ],
+        "type": "Enchantment",
+        "text": "When Journey to Nowhere enters the battlefield, exile target creature.\nWhen Journey to Nowhere leaves the battlefield, return the exiled card to the battlefield under its owner's control."
+    },
+    {
+        "name": "Malcator, Purity Overseer",
+        "manaCost": "{1}{W}{U}",
+        "colors": [
+            "U",
+            "W"
+        ],
+        "type": "Legendary Creature — Phyrexian Elephant Wizard",
+        "text": "When Malcator, Purity Overseer enters the battlefield, create a 3/3 colorless Phyrexian Golem artifact creature token.\nAt the beginning of your end step, if three or more artifacts entered the battlefield under your control this turn, create a 3/3 colorless Phyrexian Golem artifact creature token."
+    },
+    {
+        "name": "Myrsmith",
+        "manaCost": "{1}{W}",
+        "colors": [
+            "W"
+        ],
+        "type": "Creature — Human Artificer",
+        "text": "Whenever you cast an artifact spell, you may pay {1}. If you do, create a 1/1 colorless Myr artifact creature token."
+    },
+    {
+        "name": "Nadier's Nightblade",
+        "manaCost": "{2}{B}",
+        "colors": [
+            "B"
+        ],
+        "type": "Creature — Elf Warrior",
+        "text": "Whenever a token you control leaves the battlefield, each opponent loses 1 life and you gain 1 life."
+    },
+    {
+        "name": "Plains",
+        "manaCost": "",
+        "colors": [],
+        "type": "Basic Land — Plains",
+        "text": "({T}: Add {W}.)"
+    },
+    {
+        "name": "Pristine Talisman",
+        "manaCost": "{3}",
+        "colors": [],
+        "type": "Artifact",
+        "text": "{T}: Add {C}. You gain 1 life."
+    },
+    {
+        "name": "Star Compass",
+        "manaCost": "{2}",
+        "colors": [],
+        "type": "Artifact",
+        "text": "Star Compass enters the battlefield tapped.\n{T}: Add one mana of any color that a basic land you control could produce."
+    },
+    {
+        "name": "Starnheim Courser",
+        "manaCost": "{2}{W}",
+        "colors": [
+            "W"
+        ],
+        "type": "Creature — Pegasus",
+        "text": "Flying\nArtifact and enchantment spells you cast cost {1} less to cast."
+    },
+    {
+        "name": "Swamp",
+        "manaCost": "",
+        "colors": [],
+        "type": "Basic Land — Swamp",
+        "text": "({T}: Add {B}.)"
+    },
+    {
+        "name": "Swiftfoot Boots",
+        "manaCost": "{2}",
+        "colors": [],
+        "type": "Artifact — Equipment",
+        "text": "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control.)\nEquip {1}"
+    },
+    {
+        "name": "Taj-Nar Swordsmith",
+        "manaCost": "{3}{W}",
+        "colors": [
+            "W"
+        ],
+        "type": "Creature — Cat Soldier",
+        "text": "When Taj-Nar Swordsmith enters the battlefield, you may pay {X}. If you do, search your library for an Equipment card with mana value X or less, put that card onto the battlefield, then shuffle."
+    },
+    {
+        "name": "Tawnos, Solemn Survivor",
+        "manaCost": "{1}{U}",
+        "colors": [
+            "U"
+        ],
+        "type": "Legendary Creature — Human Artificer",
+        "text": "{2}, {T}: Create a token that's a copy of up to one target artifact token you control. Mill two cards.\n{1}{W}{U}{B}, {T}, Sacrifice two artifact tokens, Exile an artifact or creature card from your graveyard: Create a token that's a copy of the exiled card, except it's an artifact in addition to its other types. Activate only as a sorcery."
+    },
+    {
+        "name": "Thriving Isle",
+        "manaCost": "",
+        "colors": [],
+        "type": "Land",
+        "text": "Thriving Isle enters the battlefield tapped.\nAs Thriving Isle enters the battlefield, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color."
+    },
+    {
+        "name": "Thriving Moor",
+        "manaCost": "",
+        "colors": [],
+        "type": "Land",
+        "text": "Thriving Moor enters the battlefield tapped.\nAs Thriving Moor enters the battlefield, choose a color other than black.\n{T}: Add {B} or one mana of the chosen color."
+    },
+    {
+        "name": "Tomb of the Spirit Dragon",
+        "manaCost": "",
+        "colors": [],
+        "type": "Land",
+        "text": "{T}: Add {C}.\n{2}, {T}: You gain 1 life for each colorless creature you control."
+    },
+    {
+        "name": "Tymaret, Chosen from Death",
+        "manaCost": "{B}{B}",
+        "colors": [
+            "B"
+        ],
+        "type": "Legendary Enchantment Creature — Demigod",
+        "text": "Tymaret's toughness is equal to your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)\n{1}{B}: Exile up to two target cards from graveyards. You gain 1 life for each creature card exiled this way."
+    },
+    {
+        "name": "Urza's Rebuff",
+        "manaCost": "{1}{U}{U}",
+        "colors": [
+            "U"
+        ],
+        "type": "Instant",
+        "text": "Choose one —\n• Counter target spell.\n• Tap up to two target creatures."
+    }
+]
