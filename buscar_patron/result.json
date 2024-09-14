@@ -1,0 +1,31 @@
+{
+    "types_count": {
+        "Phyrexian": 14,
+        "Human": 6,
+        "Artifact": 5,
+        "Aura": 4,
+        "Soldier": 3,
+        "Elf": 3,
+        "Angel": 2,
+        "Rat": 2,
+        "Knight": 2,
+        "Spirit": 1,
+        "Cat": 1,
+        "Beast": 1,
+        "Troll": 1
+    },
+    "abilities_count": {
+        "Flying": 10,
+        "Vigilance": 5,
+        "Lifelink": 5,
+        "Deathtouch": 4,
+        "Proliferate": 4,
+        "Hexproof": 4,
+        "Reach": 2,
+        "Devotion": 1,
+        "Convoke": 1,
+        "Evolve": 1,
+        "Protection": 1,
+        "Menace": 1
+    }
+}

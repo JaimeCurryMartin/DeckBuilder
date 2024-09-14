@@ -1,91 +1,303 @@
 [
     {
-        "name": "Battle-Rage Blessing",
-        "manaCost": "{1}{B}",
+        "name": "Atraxa, Praetors' Voice",
+        "manaCost": "{G}{W}{U}{B}",
+        "colors": [
+            "B",
+            "G",
+            "U",
+            "W"
+        ],
+        "type": "Legendary Creature — Phyrexian Angel Horror",
+        "text": "Flying, vigilance, deathtouch, lifelink\nAt the beginning of your end step, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
+    },
+    {
+        "name": "Aeronaut's Wings",
+        "manaCost": "{2}",
+        "colors": [],
+        "type": "Artifact — Equipment",
+        "text": "Equipped creature gets +1/+0 and has flying.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"
+    },
+    {
+        "name": "Alchemist's Gift",
+        "manaCost": "{B}",
         "colors": [
             "B"
         ],
         "type": "Instant",
-        "text": "Target creature gains deathtouch and indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)"
+        "text": "Target creature gets +1/+1 and gains your choice of deathtouch or lifelink until end of turn. (Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it. Damage dealt by a creature with lifelink also causes its controller to gain that much life.)"
     },
     {
-        "name": "Biblioplex Assistant",
-        "manaCost": "{4}",
+        "name": "Altar of the Pantheon",
+        "manaCost": "{3}",
         "colors": [],
-        "type": "Artifact Creature — Gargoyle",
-        "text": "Flying\nWhen Biblioplex Assistant enters the battlefield, put up to one target instant or sorcery card from your graveyard on top of your library."
+        "type": "Artifact",
+        "text": "Your devotion to each color and each combination of colors is increased by one.\n{T}: Add one mana of any color. If you control a God, a Demigod, or a legendary enchantment, you gain 1 life."
     },
     {
-        "name": "Brudiclad, Telchor Engineer",
-        "manaCost": "{4}{U}{R}",
+        "name": "Anafenza, Kin-Tree Spirit",
+        "manaCost": "{W}{W}",
         "colors": [
-            "R",
+            "W"
+        ],
+        "type": "Legendary Creature — Spirit Soldier",
+        "text": "Whenever another nontoken creature enters the battlefield under your control, bolster 1. (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)"
+    },
+    {
+        "name": "Arcbound Prototype",
+        "manaCost": "{1}{W}",
+        "colors": [
+            "W"
+        ],
+        "type": "Artifact Creature — Assembly-Worker",
+        "text": "Modular 2 (This creature enters the battlefield with two +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)"
+    },
+    {
+        "name": "Archway Commons",
+        "manaCost": "",
+        "colors": [],
+        "type": "Land",
+        "text": "Archway Commons enters the battlefield tapped.\nWhen Archway Commons enters the battlefield, sacrifice it unless you pay {1}.\n{T}: Add one mana of any color."
+    },
+    {
+        "name": "Arcus Acolyte",
+        "manaCost": "{G}{W}",
+        "colors": [
+            "G",
+            "W"
+        ],
+        "type": "Creature — Human Cleric Archer",
+        "text": "Reach, lifelink\nOutlast {G/W} ({G/W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nEach other creature you control without a +1/+1 counter on it has outlast {G/W}."
+    },
+    {
+        "name": "Astral Wingspan",
+        "manaCost": "{4}{U}",
+        "colors": [
             "U"
         ],
-        "type": "Legendary Artifact Creature — Phyrexian Artificer",
-        "text": "Creature tokens you control have haste.\nAt the beginning of combat on your turn, create a 2/1 blue Phyrexian Myr artifact creature token. Then you may choose a token you control. If you do, each other token you control becomes a copy of that token."
+        "type": "Enchantment — Aura",
+        "text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nEnchant creature\nWhen Astral Wingspan enters the battlefield, draw a card.\nEnchanted creature gets +2/+2 and has flying."
     },
     {
-        "name": "Cement Shoes",
-        "manaCost": "{1}",
-        "colors": [],
-        "type": "Artifact — Equipment",
-        "text": "Equipped creature gets +3/+3 and has \"At the beginning of your end step, tap this creature.\"\nEquipped creature doesn't untap during its controller's untap step.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"
+        "name": "Avacyn's Pilgrim",
+        "manaCost": "{G}",
+        "colors": [
+            "G"
+        ],
+        "type": "Creature — Human Monk",
+        "text": "{T}: Add {W}."
     },
     {
-        "name": "Dune Mover",
-        "manaCost": "{2}",
-        "colors": [],
-        "type": "Artifact Creature — Phyrexian Golem",
-        "text": "Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen Dune Mover enters the battlefield, you may search your library for a basic land card, reveal it, then shuffle and put that card on top."
+        "name": "Basri's Acolyte",
+        "manaCost": "{2}{W}{W}",
+        "colors": [
+            "W"
+        ],
+        "type": "Creature — Cat Cleric",
+        "text": "Lifelink (Damage dealt by this creature also causes you to gain that much life.)\nWhen Basri's Acolyte enters the battlefield, put a +1/+1 counter on each of up to two other target creatures you control."
     },
     {
-        "name": "Etched Familiar",
+        "name": "Blightbelly Rat",
+        "manaCost": "{1}{B}",
+        "colors": [
+            "B"
+        ],
+        "type": "Creature — Phyrexian Rat",
+        "text": "Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nWhen Blightbelly Rat dies, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
+    },
+    {
+        "name": "Blightreaper Thallid // Blightsower Thallid",
+        "manaCost": "{1}{B}",
+        "colors": [
+            "B"
+        ],
+        "type": "Creature — Fungus",
+        "text": "{3}{G/P}: Transform Blightreaper Thallid. Activate only as a sorcery. ({G/P} can be paid with either {G} or 2 life.)"
+    },
+    {
+        "name": "Bonepicker Skirge",
         "manaCost": "{2}{B}",
         "colors": [
             "B"
         ],
-        "type": "Artifact Creature — Phyrexian Fox",
-        "text": "When Etched Familiar dies, each opponent loses 2 life and you gain 2 life."
+        "type": "Creature — Phyrexian Imp",
+        "text": "Flying\nCorrupted — As long as an opponent has three or more poison counters, Bonepicker Skirge has deathtouch and lifelink."
     },
     {
-        "name": "Evolving Wilds",
-        "manaCost": "",
-        "colors": [],
-        "type": "Land",
-        "text": "{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."
-    },
-    {
-        "name": "Filigree Attendant",
-        "manaCost": "{2}{U}{U}",
+        "name": "Cancel",
+        "manaCost": "{1}{U}{U}",
         "colors": [
             "U"
         ],
-        "type": "Artifact Creature — Homunculus",
-        "text": "Flying\nFiligree Attendant's power is equal to the number of artifacts you control."
+        "type": "Instant",
+        "text": "Counter target spell."
     },
     {
-        "name": "Filigree Familiar",
+        "name": "Captured by Lagacs",
+        "manaCost": "{1}{G}{W}",
+        "colors": [
+            "G",
+            "W"
+        ],
+        "type": "Enchantment — Aura",
+        "text": "Enchant creature\nEnchanted creature can't attack or block.\nWhen Captured by Lagacs enters the battlefield, support 2. (Put a +1/+1 counter on each of up to two target creatures.)"
+    },
+    {
+        "name": "Coiling Stalker",
+        "manaCost": "{1}{G}",
+        "colors": [
+            "G"
+        ],
+        "type": "Creature — Snake Ninja",
+        "text": "Ninjutsu {1}{G} ({1}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever Coiling Stalker deals combat damage to a player, put a +1/+1 counter on target creature you control that doesn't have a +1/+1 counter on it."
+    },
+    {
+        "name": "Compleated Huntmaster",
+        "manaCost": "{2}{B}",
+        "colors": [
+            "B"
+        ],
+        "type": "Creature — Phyrexian Elf Warrior",
+        "text": "{1}, {T}, Sacrifice another creature or artifact: Incubate 3. (Create an Incubator token with three +1/+1 counters on it and \"{2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature.)"
+    },
+    {
+        "name": "Copper Host Crusher",
+        "manaCost": "{6}{G}{G}",
+        "colors": [
+            "G"
+        ],
+        "type": "Creature — Phyrexian Bear Rhino",
+        "text": "Trample\nHexproof (This creature can't be the target of spells or abilities your opponents control.)"
+    },
+    {
+        "name": "Corruption of Towashi",
+        "manaCost": "{4}{U}",
+        "colors": [
+            "U"
+        ],
+        "type": "Enchantment",
+        "text": "When Corruption of Towashi enters the battlefield, incubate 4. (Create an Incubator token with four +1/+1 counters on it and \"{2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature.)\nWhenever a permanent you control transforms or a permanent enters the battlefield under your control transformed, you may draw a card. Do this only once each turn."
+    },
+    {
+        "name": "Dauntless Survivor",
+        "manaCost": "{1}{G}",
+        "colors": [
+            "G"
+        ],
+        "type": "Creature — Human Warrior",
+        "text": "When Dauntless Survivor enters the battlefield, put a +1/+1 counter on target creature."
+    },
+    {
+        "name": "Dimir Locket",
         "manaCost": "{3}",
         "colors": [],
-        "type": "Artifact Creature — Fox",
-        "text": "When Filigree Familiar enters the battlefield, you gain 2 life.\nWhen Filigree Familiar dies, draw a card."
+        "type": "Artifact",
+        "text": "{T}: Add {U} or {B}.\n{U/B}{U/B}{U/B}{U/B}, {T}, Sacrifice Dimir Locket: Draw two cards."
     },
     {
-        "name": "Gideon Jura",
-        "manaCost": "{3}{W}{W}",
+        "name": "Elvish Vatkeeper",
+        "manaCost": "{1}{B}{G}",
+        "colors": [
+            "B",
+            "G"
+        ],
+        "type": "Creature — Phyrexian Elf",
+        "text": "When Elvish Vatkeeper enters the battlefield, incubate 2. (Create an Incubator token with two +1/+1 counters on it and \"{2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature.)\n{5}: Transform target Incubator token you control. Double the number of +1/+1 counters on it."
+    },
+    {
+        "name": "Evolved Spinoderm",
+        "manaCost": "{2}{G}{G}",
+        "colors": [
+            "G"
+        ],
+        "type": "Creature — Phyrexian Beast",
+        "text": "Evolved Spinoderm enters the battlefield with four oil counters on it.\nEvolved Spinoderm has trample as long as it has two or fewer oil counters on it. Otherwise, it has hexproof.\nAt the beginning of your upkeep, remove an oil counter from Evolved Spinoderm. Then if it has no oil counters on it, sacrifice it."
+    },
+    {
+        "name": "Fatal Push",
+        "manaCost": "{B}",
+        "colors": [
+            "B"
+        ],
+        "type": "Instant",
+        "text": "Destroy target creature if it has mana value 2 or less.\nRevolt — Destroy that creature if it has mana value 4 or less instead if a permanent you controlled left the battlefield this turn."
+    },
+    {
+        "name": "Feat of Resistance",
+        "manaCost": "{1}{W}",
         "colors": [
             "W"
         ],
-        "type": "Legendary Planeswalker — Gideon",
-        "text": "[+2]: During target opponent's next turn, creatures that player controls attack Gideon Jura if able.\n[−2]: Destroy target tapped creature.\n[0]: Until end of turn, Gideon Jura becomes a 6/6 Human Soldier creature that's still a planeswalker. Prevent all damage that would be dealt to him this turn."
+        "type": "Instant",
+        "text": "Put a +1/+1 counter on target creature you control. It gains protection from the color of your choice until end of turn. (It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color.)"
     },
     {
-        "name": "Goring Warplow",
-        "manaCost": "{6}",
+        "name": "Karplusan Forest",
+        "manaCost": "",
         "colors": [],
-        "type": "Artifact Creature — Construct",
-        "text": "Prototype {1}{B} — 1/1 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)\nDeathtouch"
+        "type": "Land",
+        "text": "{T}: Add {C}.\n{T}: Add {R} or {G}. Karplusan Forest deals 1 damage to you."
+    },
+    {
+        "name": "Gateway Plaza",
+        "manaCost": "",
+        "colors": [],
+        "type": "Land — Gate",
+        "text": "Gateway Plaza enters the battlefield tapped.\nWhen Gateway Plaza enters the battlefield, sacrifice it unless you pay {1}.\n{T}: Add one mana of any color."
+    },
+    {
+        "name": "Gift of Compleation",
+        "manaCost": "{1}{B}",
+        "colors": [
+            "B"
+        ],
+        "type": "Enchantment",
+        "text": "When Gift of Compleation enters the battlefield, incubate 3. (Create an Incubator token with three +1/+1 counters on it and \"{2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature.)\nWhenever a Phyrexian you control dies, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)"
+    },
+    {
+        "name": "Gixian Skullflayer",
+        "manaCost": "{2}{B}",
+        "colors": [
+            "B"
+        ],
+        "type": "Creature — Phyrexian Human Assassin",
+        "text": "At the beginning of your upkeep, if there are three or more creature cards in your graveyard, put a +1/+1 counter on Gixian Skullflayer."
+    },
+    {
+        "name": "Gnottvold Hermit // Chrome Host Hulk",
+        "manaCost": "{3}{G}",
+        "colors": [
+            "G"
+        ],
+        "type": "Creature — Troll",
+        "text": "{5}{U/P}: Transform Gnottvold Hermit. Activate only as a sorcery. ({U/P} can be paid with either {U} or 2 life.)"
+    },
+    {
+        "name": "Herbology Instructor // Malady Invoker",
+        "manaCost": "{1}{G}",
+        "colors": [
+            "G"
+        ],
+        "type": "Creature — Treefolk Druid",
+        "text": "When Herbology Instructor enters the battlefield, you gain 3 life.\n{6}{B/P}: Transform Herbology Instructor. Activate only as a sorcery. ({B/P} can be paid with either {B} or 2 life.)"
+    },
+    {
+        "name": "Ilysian Caryatid",
+        "manaCost": "{1}{G}",
+        "colors": [
+            "G"
+        ],
+        "type": "Creature — Plant",
+        "text": "{T}: Add one mana of any color. If you control a creature with power 4 or greater, add two mana of any one color instead."
+    },
+    {
+        "name": "Ironshell Beetle",
+        "manaCost": "{1}{G}",
+        "colors": [
+            "G"
+        ],
+        "type": "Creature — Insect",
+        "text": "When Ironshell Beetle enters the battlefield, put a +1/+1 counter on target creature."
     },
     {
         "name": "Island",
@@ -95,41 +307,75 @@
         "text": "({T}: Add {U}.)"
     },
     {
-        "name": "Journey to Nowhere",
-        "manaCost": "{1}{W}",
+        "name": "Letter of Acceptance",
+        "manaCost": "{3}",
+        "colors": [],
+        "type": "Artifact",
+        "text": "{T}: Add one mana of any color.\n{2}, {T}, Sacrifice Letter of Acceptance: Draw a card."
+    },
+    {
+        "name": "Merciless Repurposing",
+        "manaCost": "{4}{B}{B}",
+        "colors": [
+            "B"
+        ],
+        "type": "Instant",
+        "text": "Exile target creature. Incubate 3. (Create an Incubator token with three +1/+1 counters on it and \"{2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature.)"
+    },
+    {
+        "name": "Moldgraf Millipede",
+        "manaCost": "{4}{G}",
+        "colors": [
+            "G"
+        ],
+        "type": "Creature — Insect Horror",
+        "text": "When Moldgraf Millipede enters the battlefield, mill three cards, then put a +1/+1 counter on Moldgraf Millipede for each creature card in your graveyard. (To mill a card, put the top card of your library into your graveyard.)"
+    },
+    {
+        "name": "Mutagen Connoisseur",
+        "manaCost": "{1}{G}{U}",
+        "colors": [
+            "G",
+            "U"
+        ],
+        "type": "Creature — Vedalken Mutant",
+        "text": "Flying, vigilance\nMutagen Connoisseur gets +1/+0 for each transformed permanent you control."
+    },
+    {
+        "name": "Nezumi Freewheeler // Hideous Fleshwheeler",
+        "manaCost": "{3}{B}",
+        "colors": [
+            "B"
+        ],
+        "type": "Creature — Rat Samurai",
+        "text": "Menace\nWhen Nezumi Freewheeler enters the battlefield, each player mills three cards. (To mill three cards, a player puts the top three cards of their library into their graveyard.)\n{5}{W/P}: Transform Nezumi Freewheeler. Activate only as a sorcery. ({W/P} can be paid with either {W} or 2 life.)"
+    },
+    {
+        "name": "Omen Hawker",
+        "manaCost": "{U}",
+        "colors": [
+            "U"
+        ],
+        "type": "Creature — Cephalid Advisor",
+        "text": "{T}: Add {C}{U}. Spend this mana only to activate abilities."
+    },
+    {
+        "name": "Phyrexian Awakening",
+        "manaCost": "{2}{W}",
         "colors": [
             "W"
         ],
         "type": "Enchantment",
-        "text": "When Journey to Nowhere enters the battlefield, exile target creature.\nWhen Journey to Nowhere leaves the battlefield, return the exiled card to the battlefield under its owner's control."
+        "text": "When Phyrexian Awakening enters the battlefield, incubate 4. (Create an Incubator token with four +1/+1 counters on it and \"{2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature.)\nPhyrexians you control have vigilance."
     },
     {
-        "name": "Malcator, Purity Overseer",
-        "manaCost": "{1}{W}{U}",
-        "colors": [
-            "U",
-            "W"
-        ],
-        "type": "Legendary Creature — Phyrexian Elephant Wizard",
-        "text": "When Malcator, Purity Overseer enters the battlefield, create a 3/3 colorless Phyrexian Golem artifact creature token.\nAt the beginning of your end step, if three or more artifacts entered the battlefield under your control this turn, create a 3/3 colorless Phyrexian Golem artifact creature token."
-    },
-    {
-        "name": "Myrsmith",
-        "manaCost": "{1}{W}",
-        "colors": [
-            "W"
-        ],
-        "type": "Creature — Human Artificer",
-        "text": "Whenever you cast an artifact spell, you may pay {1}. If you do, create a 1/1 colorless Myr artifact creature token."
-    },
-    {
-        "name": "Nadier's Nightblade",
-        "manaCost": "{2}{B}",
+        "name": "Phyrexian Debaser",
+        "manaCost": "{3}{B}",
         "colors": [
             "B"
         ],
-        "type": "Creature — Elf Warrior",
-        "text": "Whenever a token you control leaves the battlefield, each opponent loses 1 life and you gain 1 life."
+        "type": "Creature — Phyrexian Carrier",
+        "text": "Flying\n{T}, Sacrifice Phyrexian Debaser: Target creature gets -2/-2 until end of turn."
     },
     {
         "name": "Plains",
@@ -139,27 +385,128 @@
         "text": "({T}: Add {W}.)"
     },
     {
-        "name": "Pristine Talisman",
-        "manaCost": "{3}",
-        "colors": [],
-        "type": "Artifact",
-        "text": "{T}: Add {C}. You gain 1 life."
+        "name": "Quicksilver Fisher",
+        "manaCost": "{3}{U}{U}",
+        "colors": [
+            "U"
+        ],
+        "type": "Creature — Phyrexian Drake",
+        "text": "Flying\nWhen Quicksilver Fisher enters the battlefield, draw a card, then discard a card."
     },
     {
-        "name": "Star Compass",
-        "manaCost": "{2}",
-        "colors": [],
-        "type": "Artifact",
-        "text": "Star Compass enters the battlefield tapped.\n{T}: Add one mana of any color that a basic land you control could produce."
+        "name": "Ria Ivor, Bane of Bladehold",
+        "manaCost": "{2}{W}{B}",
+        "colors": [
+            "B",
+            "W"
+        ],
+        "type": "Legendary Creature — Phyrexian Knight",
+        "text": "Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)\nAt the beginning of combat on your turn, the next time target creature would deal combat damage to one or more players this combat, prevent that damage. If damage is prevented this way, create that many 1/1 colorless Phyrexian Mite artifact creature tokens with toxic 1 and \"This creature can't block.\""
     },
     {
-        "name": "Starnheim Courser",
+        "name": "Rousing Read",
+        "manaCost": "{2}{U}",
+        "colors": [
+            "U"
+        ],
+        "type": "Enchantment — Aura",
+        "text": "Enchant creature\nWhen Rousing Read enters the battlefield, draw two cards, then discard a card.\nEnchanted creature gets +1/+1 and has flying."
+    },
+    {
+        "name": "Rupture Spire",
+        "manaCost": "",
+        "colors": [],
+        "type": "Land",
+        "text": "Rupture Spire enters the battlefield tapped.\nWhen Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.\n{T}: Add one mana of any color."
+    },
+    {
+        "name": "Rustvine Cultivator",
+        "manaCost": "{G}",
+        "colors": [
+            "G"
+        ],
+        "type": "Creature — Phyrexian Elf Druid",
+        "text": "{T}: Put an oil counter on Rustvine Cultivator.\n{T}, Remove an oil counter from Rustvine Cultivator: Untap target land."
+    },
+    {
+        "name": "Scorn-Blade Berserker",
+        "manaCost": "{B}",
+        "colors": [
+            "B"
+        ],
+        "type": "Creature — Human Berserker",
+        "text": "Backup 1 (When this creature enters the battlefield, put a +1/+1 counter on target creature. If that's another creature, it gains the following ability until end of turn.)\n{1}, Sacrifice this creature: Draw a card."
+    },
+    {
+        "name": "Selesnya Guildgate",
+        "manaCost": "",
+        "colors": [],
+        "type": "Land — Gate",
+        "text": "Selesnya Guildgate enters the battlefield tapped.\n{T}: Add {G} or {W}."
+    },
+    {
+        "name": "Seraph of New Capenna // Seraph of New Phyrexia",
         "manaCost": "{2}{W}",
         "colors": [
             "W"
         ],
-        "type": "Creature — Pegasus",
-        "text": "Flying\nArtifact and enchantment spells you cast cost {1} less to cast."
+        "type": "Creature — Angel Soldier",
+        "text": "Flying\n{4}{B/P}: Transform Seraph of New Capenna. Activate only as a sorcery. ({B/P} can be paid with either {B} or 2 life.)"
+    },
+    {
+        "name": "Seven-Tail Mentor",
+        "manaCost": "{3}{W}",
+        "colors": [
+            "W"
+        ],
+        "type": "Creature — Fox Samurai",
+        "text": "When Seven-Tail Mentor enters the battlefield or dies, put a +1/+1 counter on target creature or Vehicle you control."
+    },
+    {
+        "name": "Sinew Dancer",
+        "manaCost": "{W}",
+        "colors": [
+            "W"
+        ],
+        "type": "Creature — Phyrexian Soldier",
+        "text": "{3}{W}, {T}: Tap target creature.\nCorrupted — {W}, {T}: Tap target creature. Activate only if an opponent has three or more poison counters."
+    },
+    {
+        "name": "Skyclave Aerialist // Skyclave Invader",
+        "manaCost": "{1}{U}",
+        "colors": [
+            "U"
+        ],
+        "type": "Creature — Merfolk Scout",
+        "text": "Flying\n{4}{G/P}: Transform Skyclave Aerialist. Activate only as a sorcery. ({G/P} can be paid with either {G} or 2 life.)"
+    },
+    {
+        "name": "Smell Fear",
+        "manaCost": "{1}{G}",
+        "colors": [
+            "G"
+        ],
+        "type": "Sorcery",
+        "text": "Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)\nTarget creature you control fights up to one target creature you don't control."
+    },
+    {
+        "name": "Spiteful Squad",
+        "manaCost": "{2}{W}{B}",
+        "colors": [
+            "B",
+            "W"
+        ],
+        "type": "Creature — Human Warlock",
+        "text": "Deathtouch\nSpiteful Squad enters the battlefield with two +1/+1 counters on it.\nWhen Spiteful Squad dies, put its counters on target creature you control."
+    },
+    {
+        "name": "Storm the Seedcore",
+        "manaCost": "{2}{G}{G}",
+        "colors": [
+            "G"
+        ],
+        "type": "Sorcery",
+        "text": "Distribute four +1/+1 counters among up to four target creatures you control. Creatures you control gain vigilance and trample until end of turn."
     },
     {
         "name": "Swamp",
@@ -169,67 +516,62 @@
         "text": "({T}: Add {B}.)"
     },
     {
-        "name": "Swiftfoot Boots",
-        "manaCost": "{2}",
-        "colors": [],
-        "type": "Artifact — Equipment",
-        "text": "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control.)\nEquip {1}"
+        "name": "Swift Response",
+        "manaCost": "{1}{W}",
+        "colors": [
+            "W"
+        ],
+        "type": "Instant",
+        "text": "Destroy target tapped creature."
     },
     {
-        "name": "Taj-Nar Swordsmith",
+        "name": "Tangled Skyline",
+        "manaCost": "{4}{G}",
+        "colors": [
+            "G"
+        ],
+        "type": "Enchantment",
+        "text": "When Tangled Skyline enters the battlefield, you gain 5 life and incubate 5. (Create an Incubator token with five +1/+1 counters on it and \"{2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature.)\nPhyrexians you control have reach."
+    },
+    {
+        "name": "Terramorphic Expanse",
+        "manaCost": "",
+        "colors": [],
+        "type": "Land",
+        "text": "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."
+    },
+    {
+        "name": "Tiller of Flesh",
         "manaCost": "{3}{W}",
         "colors": [
             "W"
         ],
-        "type": "Creature — Cat Soldier",
-        "text": "When Taj-Nar Swordsmith enters the battlefield, you may pay {X}. If you do, search your library for an Equipment card with mana value X or less, put that card onto the battlefield, then shuffle."
+        "type": "Creature — Phyrexian Knight",
+        "text": "Whenever you cast a spell that targets one or more permanents, incubate 2. (Create an Incubator token with two +1/+1 counters on it and \"{2}: Transform this artifact.\" It transforms into a 0/0 Phyrexian artifact creature.)"
     },
     {
-        "name": "Tawnos, Solemn Survivor",
-        "manaCost": "{1}{U}",
+        "name": "Unknown Shores",
+        "manaCost": "",
+        "colors": [],
+        "type": "Land",
+        "text": "{T}: Add {C}.\n{1}, {T}: Add one mana of any color."
+    },
+    {
+        "name": "Urban Daggertooth",
+        "manaCost": "{2}{G}{G}",
+        "colors": [
+            "G"
+        ],
+        "type": "Creature — Dinosaur",
+        "text": "Vigilance\nEnrage — Whenever Urban Daggertooth is dealt damage, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
+    },
+    {
+        "name": "Weakstone's Subjugation",
+        "manaCost": "{U}",
         "colors": [
             "U"
         ],
-        "type": "Legendary Creature — Human Artificer",
-        "text": "{2}, {T}: Create a token that's a copy of up to one target artifact token you control. Mill two cards.\n{1}{W}{U}{B}, {T}, Sacrifice two artifact tokens, Exile an artifact or creature card from your graveyard: Create a token that's a copy of the exiled card, except it's an artifact in addition to its other types. Activate only as a sorcery."
-    },
-    {
-        "name": "Thriving Isle",
-        "manaCost": "",
-        "colors": [],
-        "type": "Land",
-        "text": "Thriving Isle enters the battlefield tapped.\nAs Thriving Isle enters the battlefield, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color."
-    },
-    {
-        "name": "Thriving Moor",
-        "manaCost": "",
-        "colors": [],
-        "type": "Land",
-        "text": "Thriving Moor enters the battlefield tapped.\nAs Thriving Moor enters the battlefield, choose a color other than black.\n{T}: Add {B} or one mana of the chosen color."
-    },
-    {
-        "name": "Tomb of the Spirit Dragon",
-        "manaCost": "",
-        "colors": [],
-        "type": "Land",
-        "text": "{T}: Add {C}.\n{2}, {T}: You gain 1 life for each colorless creature you control."
-    },
-    {
-        "name": "Tymaret, Chosen from Death",
-        "manaCost": "{B}{B}",
-        "colors": [
-            "B"
-        ],
-        "type": "Legendary Enchantment Creature — Demigod",
-        "text": "Tymaret's toughness is equal to your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)\n{1}{B}: Exile up to two target cards from graveyards. You gain 1 life for each creature card exiled this way."
-    },
-    {
-        "name": "Urza's Rebuff",
-        "manaCost": "{1}{U}{U}",
-        "colors": [
-            "U"
-        ],
-        "type": "Instant",
-        "text": "Choose one —\n• Counter target spell.\n• Tap up to two target creatures."
+        "type": "Enchantment — Aura",
+        "text": "Enchant artifact or creature\nWhen Weakstone's Subjugation enters the battlefield, you may pay {3}. If you do, tap enchanted permanent.\nEnchanted permanent doesn't untap during its controller's untap step."
     }
 ]

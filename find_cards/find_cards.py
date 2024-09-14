@@ -43,11 +43,11 @@ def guardar_info_cartas(file_path, info_cartas):
         json.dump(info_cartas, file, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
-    file_path = '/Users/administrador/Documents/DeckBuilder/load_cards/cardsList.txt'
+    file_path = '/Users/administrador/Documents/DeckBuilder/find_cards/cardsList.txt'
     
     nombres_cartas = cargar_cartas_txt(file_path)
 
     info_cartas = obtener_info_cartas(nombres_cartas)
 
-    guardar_info_cartas('/Users/administrador/Documents/DeckBuilder/load_cards/info_cartas.json', info_cartas)
+    guardar_info_cartas('/Users/administrador/Documents/DeckBuilder/find_cards/info_cartas.json', info_cartas)
     print("Información de las cartas guardada en info_cartas.json")
